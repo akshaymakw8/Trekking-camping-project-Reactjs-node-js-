@@ -1,0 +1,60 @@
+.payment-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-method {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-method input[type='radio'] {
+  margin-right: 10px;
+}
+
+.credit-card-form,
+.paypal-form {
+  /* Add styles for payment forms here */
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.method-container {
+  align-items: center;
+}
+
+.review_input{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+
+}
+
+.review_input input{
+  width: 100;
+  padding: 0.5rem 0;
+  border: none;
+}
+
+.review_input input:focus{
+  outline: none;
+}
+
+.review_input button{
+  margin-left: 45px;
+}

@@ -1,0 +1,46 @@
+/* invoice.css */
+.invoice {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .invoice h2 {
+    text-align: center;
+  }
+  
+  .invoice-details {
+    margin-bottom: 20px;
+  }
+  
+  .invoice-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .item-header {
+    font-weight: bold;
+  }
+  
+  .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .invoice-total {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .payment-status {
+    text-align: right;
+    font-weight: bold;
+  }
+  

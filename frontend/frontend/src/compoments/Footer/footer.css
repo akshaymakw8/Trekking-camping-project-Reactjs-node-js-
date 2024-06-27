@@ -1,0 +1,34 @@
+.footer{
+    padding-top:70px;
+    padding-bottom:30px;
+}
+.footer .logo img{
+    width:50%;
+    margin-bottom:1rem;
+}
+.footer .logo p{
+    color:black;
+}
+.social_links span a{
+    text-decoration:none;
+    color:orange;
+    font-size:1rem;
+}
+.footer_link-title{
+    color:black;
+    margin-bottom:1rem;
+}
+.footer_quick-links li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.1rem;
+}
+.footer_quick-links h6 span i{
+    color: orangered;
+    font-size:1.1rem;
+}
+.copyright{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}

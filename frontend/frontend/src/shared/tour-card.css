@@ -1,0 +1,49 @@
+.tour_img img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.card{
+    border: none !important;
+    box-shadow:rgba(0,0,0,0.2) 0px 18px 50px -10px;
+}
+.tour_img{
+    position: relative;
+}
+.tour_img span{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:max-content;
+    height:max-content;
+    z-index:10;
+    background:var(--primary-color);
+    color:white;
+    padding:0.3rem 0.5rem;
+    border-radius:3px 0 0 0;
+}
+.tour_top span i{
+    color:var(--secondary-color);
+}
+.tour_rating{
+    font-size:.9rem;
+    color:orangered;
+}
+.tour_location{
+    color:green;
+    font-weight:500;
+}
+.tour_title{
+    margin-top:1rem;
+    font-size:1.1rem;
+    cursor:pointer;
+}
+.booking_btn{
+    background:orange !important;
+    cursor:pointer;
+    padding:0.2rem 0.5rem;
+}
+.booking_btn a{
+    text-decoration: none;
+    font-size:0.9rem;
+    color:white;
+}
